@@ -1,8 +1,26 @@
 aid: rogue-wave-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rogue-wave-software.png
 name: Rogue Wave Software
-description: Rogue Wave Software is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Rogue Wave Software was a developer-tools and high-performance-computing software company
+  known for products such as TotalView, Klocwork, IMSL numerical libraries, PV-WAVE, and its
+  Zend PHP and open-source support lines. It was acquired by Perforce Software in 2019 and the
+  brand has since been fully absorbed into Perforce; the historical roguewave.com domain now
+  301-redirects wholesale to perforce.com. It was surfaced as a portfolio company of
+  battery-ventures and added to the API Evangelist network as a stub. This enrichment pass
+  found no independent Rogue Wave API surface, developer portal, documentation, or
+  well-known endpoints — everything resolves to Perforce.
 url: https://raw.githubusercontent.com/api-evangelist/rogue-wave-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: perforce
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Developer Tools
+- Static Analysis
+- High Performance Computing
+- Numerical Libraries
+- Acquired
+common:
+- type: Website
+  url: https://www.perforce.com/
+  x-note: roguewave.com redirects here; Rogue Wave is now part of Perforce Software
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
