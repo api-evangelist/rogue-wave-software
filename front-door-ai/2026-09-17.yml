@@ -1,0 +1,32 @@
+# Front Door AI Index — rogue-wave-software — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: rogue-wave-software
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.perforce.com
+  final_host: www.perforce.com
+  ownership: shared
+  owner: perforce
+  shares_host_with:
+  - delphix
+  - hansoft
+  - perforce
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 23
+  density: null
+  words: 1342
+  tiers:
+    agentic: 3
+    core: 20
+    model: 0
+  ambiguous: 12
+  top_terms:
+    AI: 18
+    automation: 8
+    intelligence: 4
+    agentic: 3
+    ML: 2
